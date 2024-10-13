@@ -3,5 +3,12 @@
         {
             "path": "../../.."
         }
-    ]
+    ],
+    "settings": {
+        "java.project.sourcePaths": [
+            "MyBackendApp\\src\\main\\java\\gs\\java\\fs",
+            "MyBackendApp\\src\\main\\java\\gs\\java\\fs\\bll"
+        ],
+        "java.project.referencedLibraries": []
+    }
 }
