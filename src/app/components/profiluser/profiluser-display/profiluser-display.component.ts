@@ -2,16 +2,16 @@ import { CommonModule } from '@angular/common';
 import { Component,OnInit } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
-import { TableModule } from 'primeng/table';
-import { ClientService } from '../../../services/client.service';
-import { AuthService } from '../../../services/auth-service.service';
 import { Observable } from 'rxjs';
-import { Client } from '../../../models/client.model';
+import { Client } from '../../../models/models/client.model';
+import { ClientService } from '../../../services/services/client.service';
+import { AuthService } from '../../../services/services/auth-service.service';
+
  
 @Component({
   selector: 'app-profil-utilisateur',
   templateUrl: './profiluser-display.component.html',
-  imports: [CommonModule, FormsModule, ReactiveFormsModule, RouterModule, TableModule],
+  imports: [CommonModule, FormsModule, ReactiveFormsModule, RouterModule],
   standalone: true
 })
 export class ProfilUserDisplayComponent implements OnInit {

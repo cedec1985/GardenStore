@@ -1,13 +1,15 @@
 import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { Observable} from 'rxjs';
-import { ProduitDTO } from '../../../models/dto/produit.dto';
-import { ArticleService } from '../../../services/article.service';
+import { HttpClient } from '@angular/common/http';
+import { ArticleService } from '../../../services/services/article.service';
+import { ProduitDTO } from '../../../models/models/dto/produit.dto';
 
 
 @Component({
   selector: 'app-mobilierdetails',
   standalone: true,
+  providers: [HttpClient],
   imports: [CommonModule],
   templateUrl: './mobilierdetails.component.html',
   styleUrl: './mobilierdetails.component.css'

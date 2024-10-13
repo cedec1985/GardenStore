@@ -1,16 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, RouterModule } from '@angular/router';
-import { PanierService } from '../../services/panier.service';
 import { CommonModule} from '@angular/common';
 import { ReactiveFormsModule, FormsModule, Form } from '@angular/forms';
 import { AchattermineComponent } from '../achattermine/achattermine.component';
 import { Observable } from 'rxjs';
-import { Livreur } from '../../models/livreur';
-import { LivreurService } from '../../services/livreur.service';
-import { Client } from '../../models/client.model';
-import { ClientService } from '../../services/client.service';
-import { CommandeService } from '../../services/commande.service';
-import { CommandeAPIForm,  CommandeForm } from '../../models/dto/commande.dto';
+import { Livreur } from '../../models/models/livreur';
+import { Client } from '../../models/models/client.model';
+import { CommandeAPIForm, CommandeForm } from '../../models/models/dto/commande.dto';
+import { PanierService } from '../../services/services/panier.service';
+import { LivreurService } from '../../services/services/livreur.service';
+import { ClientService } from '../../services/services/client.service';
+import { CommandeService } from '../../services/services/commande.service';
+
 
 @Component({
   selector: 'app-confirmation',

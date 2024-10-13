@@ -1,8 +1,8 @@
 import { CommonModule } from '@angular/common';
 import {Form,UntypedFormBuilder,UntypedFormGroup,FormsModule,ReactiveFormsModule,Validators} from '@angular/forms';
 import { Router} from '@angular/router';
-import { AuthService } from '../../services/auth-service.service';
 import { Component, ElementRef, Input } from '@angular/core';
+import { AuthService } from '../../services/services/auth-service.service';
 
 @Component({
   selector: 'app-connexion',

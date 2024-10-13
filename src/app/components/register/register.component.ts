@@ -2,8 +2,8 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { Form, UntypedFormBuilder, UntypedFormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
-import { RegisterAPIForm, RegisterForm } from '../../models/user-create.form';
-import { AuthService } from '../../services/auth-service.service';
+import { AuthService } from '../../services/services/auth-service.service';
+import { RegisterAPIForm, RegisterForm } from '../../models/models/user-create.form';
 
 @Component({
   selector: 'app-form',

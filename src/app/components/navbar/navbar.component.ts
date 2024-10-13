@@ -1,8 +1,8 @@
 import { CommonModule } from '@angular/common';
 import { Component, ElementRef, Input, OnInit } from '@angular/core';
-import { Form } from '@angular/forms';
 import { RouterModule } from '@angular/router';
-import { AuthService } from '../../services/auth-service.service';
+import { AuthService } from '../../services/services/auth-service.service';
+
 
 @Component({
     selector: 'app-navbar',

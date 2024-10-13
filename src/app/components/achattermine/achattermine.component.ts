@@ -1,9 +1,9 @@
 import { Component, OnInit} from '@angular/core';
 import { UntypedFormBuilder, UntypedFormGroup, FormsModule, ReactiveFormsModule, Validators } from '@angular/forms';
 import { Router, RouterModule } from '@angular/router';
-import { PanierService } from '../../services/panier.service';
 import { CommonModule } from '@angular/common';
-import { LivreurService } from '../../services/livreur.service';
+import { PanierService } from '../../services/services/panier.service';
+import { LivreurService } from '../../services/services/livreur.service';
 
 @Component({
   selector: 'app-achattermine', 

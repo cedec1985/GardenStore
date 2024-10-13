@@ -3,9 +3,9 @@
 import { Component, OnInit} from '@angular/core';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ActivatedRoute, Router, RouterModule } from '@angular/router';
-import { CategoriesmockService } from '../../../services/categoriesmock.service';
 import { ProduitresultComponent } from "../../produitresult/produitresult.component";
 import { CartComponent } from '../../cart/cart.component';
+import { CategoriesmockService } from '../../../services/services/categoriesmock.service';
 
     
     @Component({

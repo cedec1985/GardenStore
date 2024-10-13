@@ -3,7 +3,7 @@ import { HttpClient} from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Observable,tap } from 'rxjs';
-import { ProduitDTO } from '../../../models/dto/produit.dto';
+import { ProduitDTO } from '../../../models/models/dto/produit.dto';
 
 @Component({
   selector: 'app-accessoiresdetails',

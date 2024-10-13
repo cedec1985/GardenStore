@@ -1,11 +1,11 @@
 import { CommonModule } from '@angular/common';
 import { Component, ElementRef, Input } from '@angular/core';
 import { Router, RouterModule } from '@angular/router';
-import { Category } from '../../models/category';
-import { CategoryService } from '../../services/categorie.service';
-import { CategoriesmockService } from '../../services/categoriesmock.service';
-import { AuthService } from '../../services/auth-service.service';
 import { CategoryComponent } from '../category/category.component';
+import { Category } from '../../models/models/category';
+import { CategoriesmockService } from '../../services/services/categoriesmock.service';
+import { CategoryService } from '../../services/services/categorie.service';
+import { AuthService } from '../../services/services/auth-service.service';
 
 @Component({
   selector: 'app-home',
