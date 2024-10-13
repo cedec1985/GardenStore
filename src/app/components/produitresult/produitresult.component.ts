@@ -4,12 +4,13 @@ import { Observable } from 'rxjs';
 import { PanierService } from '../../services/services/panier.service';
 import { Article } from '../../models/models/article';
 import { Categorie } from '../../models/models/categorie';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-produitresult',
   templateUrl: './produitresult.component.html',
   styleUrls: ['./produitresult.component.css'],
-  imports: [CommonModule],
+  imports: [CommonModule, RouterModule],
   standalone: true
 })
 export class ProduitresultComponent{
