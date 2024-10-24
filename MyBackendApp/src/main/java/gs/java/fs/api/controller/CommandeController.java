@@ -60,7 +60,7 @@ public class CommandeController {
     @DeleteMapping("/{id}")
     public ResponseEntity<CommandeDTO> delete(@PathVariable Long id) {
 
-        if ((boolean) commandeService.cancel(id)) {
+        if (commandeService.cancel(id)) {
             return ResponseEntity.noContent().build();
         } else {
             return ResponseEntity.notFound().build();
