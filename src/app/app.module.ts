@@ -42,8 +42,8 @@ import { HttpClient} from '@angular/common/http';
   ProductDetailsComponent,OutillagedetailsComponent,MobilierdetailsComponent,PlantesdetailsComponent,AccessoiresdetailsComponent,ContactComponent,ProfilUserDisplayComponent],
   exports: [
     RegisterComponent,ConnexionComponent,CartComponent,AdminComponent,OutillageComponent,MobilierComponent,PlantesComponent,AccessoiresComponent,StockEpuiseDirective,
-    AchattermineComponent,ConfirmationComponent,ProduitresultComponent,CategoryComponent, ProfilUserComponent,
-    ProductDetailsComponent,OutillagedetailsComponent,MobilierdetailsComponent,PlantesdetailsComponent,AccessoiresdetailsComponent,ContactComponent,ProfilUserDisplayComponent],
+    AchattermineComponent,ConfirmationComponent,ProduitresultComponent,CategoryComponent, ProfilUserComponent,NavbarComponent,
+    ProductDetailsComponent,OutillagedetailsComponent,MobilierdetailsComponent,PlantesdetailsComponent,AccessoiresdetailsComponent,ContactComponent,ProfilUserDisplayComponent, HomeComponent],
     
   providers: [AuthService,PanierService,CategoriesmockService,CategoryService,HttpClient],
   bootstrap: []

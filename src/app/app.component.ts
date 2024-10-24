@@ -39,7 +39,7 @@ export class AppComponent implements OnInit{
   email!:string;
   password!:string;
 
-  constructor(private panierService: PanierService, private auth:AuthService, private elementRef: ElementRef, private http :HttpClient, private route: ActivatedRoute) {
+  constructor(private panierService: PanierService) {
   	this.panier = this.panierService.getCartCount();
   }
 
